@@ -13971,7 +13971,7 @@ var $backgroundAudio = document.getElementById('background-audio'); // init caro
   autoplay: true,
   cssEase: 'linear'
 });
-},{"jquery":"node_modules/jquery/dist/jquery.js","slick-carousel":"node_modules/slick-carousel/slick/slick.js"}],"../../.nvm/versions/node/v8.15.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"jquery":"node_modules/jquery/dist/jquery.js","slick-carousel":"node_modules/slick-carousel/slick/slick.js"}],"../../../.nvm/versions/node/v8.15.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -13999,7 +13999,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60606" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60985" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -14174,5 +14174,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../.nvm/versions/node/v8.15.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","assets/js/main.js"], null)
+},{}]},{},["../../../.nvm/versions/node/v8.15.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","assets/js/main.js"], null)
 //# sourceMappingURL=/main.cea5deef.js.map
