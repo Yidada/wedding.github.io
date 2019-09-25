@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel serve -d docs src/index.html"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
     "popper.js": "^1.15.0",
     "slick-carousel": "^1.8.1",
     "zepto": "^1.2.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
   }
 }
