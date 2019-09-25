@@ -1,0 +1,26 @@
+{
+  "name": "wedding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yidada/wedding.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yidada/wedding/issues"
+  },
+  "homepage": "https://github.com/Yidada/wedding#readme",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "slick-carousel": "^1.8.1",
+    "zepto": "^1.2.0"
+  }
+}
