@@ -1,29 +1,30 @@
 {
-  "name": "wedding",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "parcel serve -d docs src/index.html"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Yidada/wedding.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Yidada/wedding/issues"
-  },
-  "homepage": "https://github.com/Yidada/wedding#readme",
-  "dependencies": {
-    "jquery": "^3.4.1",
-    "popper.js": "^1.15.0",
-    "slick-carousel": "^1.8.1",
-    "zepto": "^1.2.0"
-  },
-  "devDependencies": {
-    "parcel-bundler": "^1.12.3"
-  }
+    "name": "wedding",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel serve -d docs src/index.html",
+        "publish": "parcel build -d docs src/index.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Yidada/wedding.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Yidada/wedding/issues"
+    },
+    "homepage": "https://github.com/Yidada/wedding#readme",
+    "dependencies": {
+        "jquery": "^3.4.1",
+        "popper.js": "^1.15.0",
+        "slick-carousel": "^1.8.1",
+        "zepto": "^1.2.0"
+    },
+    "devDependencies": {
+        "parcel-bundler": "^1.12.3"
+    }
 }
