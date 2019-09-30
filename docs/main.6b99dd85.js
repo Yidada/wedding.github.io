@@ -12,4 +12,4 @@ var i;!function(e){"use strict";"function"==typeof i&&i.amd?i(["jquery"],e):"und
 },{"jquery":"juYr"}],"FVPG":[function(require,module,exports) {
 "use strict";var e=u(require("jquery")),r=u(require("slick-carousel"));function u(e){return e&&e.__esModule?e:{default:e}}var a=document.getElementById("background-audio");(0,e.default)(".pic").slick({arrows:!1,dots:!1,infinite:!0,speed:500,fade:!0,autoplay:!0,cssEase:"linear"});
 },{"jquery":"juYr","slick-carousel":"QAGU"}]},{},["FVPG"], null)
-//# sourceMappingURL=https://su.bcebos.com/v1/daming-xini/docs/main.6b99dd85.js.map
+//# sourceMappingURL=https://daming-xini.cdn.bcebos.com/docs/main.6b99dd85.js.map
