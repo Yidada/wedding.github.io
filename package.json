@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "start": "parcel serve src/index.html",
-        "publish": "parcel build -d docs --public-url https://daming-xini.cdn.bcebos.com/docs/ src/index.html"
+        "publish": "parcel build -d docs --public-url https://daming-xini.cdn.bcebos.com/docs/ src/index.html src/2019.html"
     },
     "repository": {
         "type": "git",
