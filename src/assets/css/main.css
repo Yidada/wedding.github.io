@@ -55,7 +55,9 @@ body {
 }
 
 .pic-item .pic-img {
-    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    height: 572px;
 }
 
 .pic-item .pic-subtitle {
@@ -68,6 +70,7 @@ body {
     transform: translate(-50%, -50%);
     padding-bottom: 10px;
     opacity: 0;
+    white-space: nowrap;
     animation: subtitle 2s forwards;
 }
 
