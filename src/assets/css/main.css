@@ -175,6 +175,11 @@ body {
     background-image: url('../img/person-girl.jpg')
 }
 
+.person-img.year-2020 {
+    width: 100%;
+    background-image: url('../img/DSCF1793.jpg')
+}
+
 .icon-heart {
     position: absolute;
     top: 50%;
@@ -186,6 +191,10 @@ body {
     transform-origin: 0;
     transform: translate(-50%, -40%);
     animation: heart 2.4s infinite;
+}
+
+.icon-heart.year-2020 {
+    top: 80%;
 }
 
 .background2 {
