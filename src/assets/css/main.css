@@ -32,8 +32,13 @@
     }
 }
 
+@font-face {
+    font-family: BaroqueScript;
+    src: url('../font/BaroqueScript.ttf');
+}
+
 body {
-    font-family: "Raleway", Arial, sans-serif;
+    font-family: BaroqueScript, "Raleway", Arial, sans-serif;
     font-style: normal;
 }
 
